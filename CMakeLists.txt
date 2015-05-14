@@ -20,6 +20,7 @@ ENDIF(NOT CONFIGURED_ONCE)
 ADD_EXECUTABLE(max basics/max.cpp)
 ADD_EXECUTABLE(max2 basics/max2.cpp)
 ADD_EXECUTABLE(max3 basics/max3.cpp)
+ADD_EXECUTABLE(max3a basics/max3a.cpp)
 
 SET(CONFIGURED_ONCE TRUE CACHE INTERNAL
         "A flag showing that CMake has configured at least once.")
