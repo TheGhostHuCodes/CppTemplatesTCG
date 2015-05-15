@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/TheGhostHuCodes/CppTemplatesTCG.svg?branch=master)](https://travis-ci.org/TheGhostHuCodes/CppTemplatesTCG)))]]
+[![Build Status](https://travis-ci.org/TheGhostHuCodes/CppTemplatesTCG.svg?branch=master)](https://travis-ci.org/TheGhostHuCodes/CppTemplatesTCG)
 
 # C++ Templates: The Complete Guide
 
