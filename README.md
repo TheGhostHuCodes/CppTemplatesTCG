@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/TheGhostHuCodes/CppTemplatesTCG.svg?branch=master)](https://travis-ci.org/TheGhostHuCodes/CppTemplatesTCG)))]]
+
 # C++ Templates: The Complete Guide
 
 My workspace containing code listings from [C++ Templates: The Complete
