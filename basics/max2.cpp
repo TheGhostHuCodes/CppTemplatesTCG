@@ -1,4 +1,4 @@
-int const& max(int const& a, int const& b) { return a < b ? b : a; }
+inline int const& max(int const& a, int const& b) { return a < b ? b : a; }
 
 template <typename T> inline T const& max(T const& a, T const& b) {
   return a < b ? b : a;
@@ -15,7 +15,8 @@ int main() {
   ::max(7, 42);
   ::max<>(7, 42);
   ::max<double>(7, 42);
-  ::max('a', 42.7);
+//  ::max('a', 42.7);
+  ::max('a', static_cast<int>(42.7));
 
   return 0;
 }

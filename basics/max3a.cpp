@@ -8,9 +8,9 @@ template <typename T> inline T const& max(T const& a, T const& b) {
 }
 
 // Maximum of two C-strings (call-by-value)
-inline char const* max(char const* a, char const* b) {
-  return std::strcmp(a, b) < 0 ? b : a;
-}
+// inline char const* max(char const* a, char const* b) {
+//   return std::strcmp(a, b) < 0 ? b : a;
+// }
 
 // Maximum of three values of any type (call-by-reference)
 template <typename T> inline T const& max(T const& a, T const& b, T const& c) {
@@ -24,7 +24,8 @@ int main() {
   // templated max function which takes three arguments takes arguments by
   // reference and returns by reference. Since the three argument function
   // calls the two argument function, you could possibly return a local
-  // temporary object by reference.
+  // temporary object by reference. Comment out C-strings function overload to
+  // make things work.
   const char* s1 = "frederic";
   const char* s2 = "anica";
   const char* s3 = "lucas";
