@@ -6,7 +6,7 @@ SET(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 MESSAGE("${CMAKE_CXX_COMPILER_ID}")
 
 IF("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU" OR
-        "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
+        "${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")
     SET(WARNINGS "-Weverything -Wall -Wextra -Wno-c++98-compat \
             -Wno-c++98-compat-pedantic -Wno-padded -Wno-global-constructors \
             -Wno-exit-time-destructors -Werror")
