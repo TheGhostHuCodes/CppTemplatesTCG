@@ -10,7 +10,7 @@ IF("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
 ELSEIF("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")
     SET(WARNINGS "-Weverything -Wall -Wextra -Wno-c++98-compat \
             -Wno-c++98-compat-pedantic -Wno-padded -Wno-global-constructors \
-            -Wno-exit-time-destructors -Werror")
+            -Wno-exit-time-destructors -Wno-newline-eof -Werror")
 ENDIF()
 IF(NOT CONFIGURED_ONCE)
     SET(CMAKE_CXX_FLAGS "${WARNINGS}"
@@ -25,6 +25,7 @@ ADD_EXECUTABLE(max3a basics/max3a.cpp)
 ADD_EXECUTABLE(max4 basics/max4.cpp)
 ADD_EXECUTABLE(stack1test basics/stack1test.cpp)
 ADD_EXECUTABLE(stack3test basics/stack3test.cpp)
+ADD_EXECUTABLE(stack4test basics/stack4test.cpp)
 
 SET(CONFIGURED_ONCE TRUE CACHE INTERNAL
         "A flag showing that CMake has configured at least once.")
