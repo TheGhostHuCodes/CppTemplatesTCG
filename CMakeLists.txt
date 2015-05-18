@@ -26,6 +26,7 @@ ADD_EXECUTABLE(max4 basics/max4.cpp)
 ADD_EXECUTABLE(stack1test basics/stack1test.cpp)
 ADD_EXECUTABLE(stack3test basics/stack3test.cpp)
 ADD_EXECUTABLE(stack4test basics/stack4test.cpp)
+ADD_EXECUTABLE(addval basics/addval.cpp)
 
 SET(CONFIGURED_ONCE TRUE CACHE INTERNAL
         "A flag showing that CMake has configured at least once.")
