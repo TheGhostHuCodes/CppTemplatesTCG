@@ -1,8 +1,8 @@
-#include "stack2.hpp"
 #include <iostream>
 #include <string>
 #include <cstdlib>
 #include <stdexcept>
+#include "stack1.hpp"
 
 int main() {
   try {
