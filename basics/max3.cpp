@@ -33,7 +33,6 @@ int main() {
   char const* s1 = "David";
   char const* s2 = "Nico";
   std::cout << ::max(s1, s2) << std::endl;
-  ;
 
   return 0;
 }
