@@ -1,7 +1,7 @@
+#include "stack1.hpp"
 #include <deque>
 #include <string>
 #include <stdexcept>
-#include "stack1.hpp"
 
 template <> class Stack<std::string> {
 public:
