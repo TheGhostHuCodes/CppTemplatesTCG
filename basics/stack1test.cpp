@@ -12,6 +12,7 @@ int main() {
     // manipulate int stack.
     intStack.push(7);
     std::cout << intStack.top() << std::endl;
+
     // manipulate string stack.
     stringStack.push("hello");
     std::cout << stringStack.top() << std::endl;
