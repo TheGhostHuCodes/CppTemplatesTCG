@@ -1,8 +1,8 @@
 #include <iostream>
 
-// Minimum of two values of any type. Misnamed max.
+// Minimum of two values of any type.
 template <typename T> inline T const& max(T const& a, T const& b) {
-  return a < b ? a: b;
+  return a < b ? b : a;
 }
 
 // Maximum of three values of any type.
